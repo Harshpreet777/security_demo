@@ -18,6 +18,7 @@ class CheckVpnConnection {
             interface.name.contains("wireguard") ||
             interface.name.contains("openvpn") ||
             interface.name.contains("softether") ||
+            interface.name.contains("tun") ||
             interface.name.contains("pptp"))
         : isVpnActive = false;
     return isVpnActive;

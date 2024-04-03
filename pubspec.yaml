@@ -40,7 +40,8 @@ dependencies:
   secure_application: 
   flutter_jailbreak_detection:
   vpn_connection_detector: 
-  
+  screen_protector: 
+  permission_handler: 
 
 dev_dependencies:
   flutter_test:
